@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
 
-import UseStateArry from './tutorial/basics/dataItration'
+import ChangeValue from './tutorial/basics/buttonchange'
 
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
 
   return (
       <>
-       <UseStateArry/>
+       <ChangeValue/>
       </>
   );
 };
