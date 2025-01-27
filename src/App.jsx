@@ -12,9 +12,9 @@ function App() {
 
   return (
       <>
-       <State name={'kerala'}/>
-       <State name={'karnataka'}/>
-       <State name={'tamilnadu'}/>
+       <State name={'kerala'} population={3000}/>
+       <State name={'karnataka'} population={4000}/>
+       <State name={'tamilnadu'} population={5000}/>
       </>
   );
 };
