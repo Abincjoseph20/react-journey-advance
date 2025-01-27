@@ -10,11 +10,15 @@ import State from './tutorial/basics/props'
 function App() {
   const [count, setCount] = useState(0)
 
+  const values = [
+    {name:'kerala',population:3000,year:1957},
+    {name:'karnataka',population:4000,year:1857},
+    {name:'tamilnadu',population:5000,year:1757},
+  ]
+
   return (
       <>
-       <State name={'kerala'} population={3000}/>
-       <State name={'karnataka'} population={4000}/>
-       <State name={'tamilnadu'} population={5000}/>
+       <State values={values}/>
       </>
   );
 };

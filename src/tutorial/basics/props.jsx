@@ -1,12 +1,17 @@
 import React from "react"
 import './style.css'
 
-const State = (props) => {
+const State = ({values}) => {
   return (
-    <div className="bgs">
-        <h1>{props.name}</h1>
-        <h1>{props.population}</h1>
+    <div>
+    {values.map((values)=>(
+        <div className="bgs">
+            <h1>name:{values.name}</h1>
+            <h1>population:{values.population}</h1>
+            <h1>year:{values.year}</h1>
+        </div>
+    ))}
     </div>
-  )
-}
+  );
+};
 export default State;
