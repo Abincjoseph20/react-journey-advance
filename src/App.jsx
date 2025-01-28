@@ -6,14 +6,15 @@ import './App.css'
 // import IncreaseSetValue from './tutorial/basics/increaseSateVslue'
 // import ToDo from './tutorial/basics/Todo'
 // import State from './tutorial/basics/props' 
-import BMI from './tutorial/basics/bmi'
+// import BMI from './tutorial/basics/bmi'
+import Effect from './tutorial/basics/fetch'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
       <>
-       <BMI/>
+       <Effect/>
       </>
   );
 };

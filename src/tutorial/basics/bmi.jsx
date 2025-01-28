@@ -20,9 +20,7 @@ function BMI(){
     }
 
     return(
-        <div>
-
-
+    <div>
       <div >
         <input  type="text" value={height} onChange={target1} placeholder="Height (m)" />
         <br />
@@ -35,10 +33,7 @@ function BMI(){
           <h1>{calculate}</h1>
         </div>
       </div>
-        </div>
-
-
-
+    </div>
     );
 };
 
