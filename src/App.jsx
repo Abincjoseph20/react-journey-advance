@@ -7,15 +7,18 @@ import './App.css'
 // import ToDo from './tutorial/basics/Todo'
 // import State from './tutorial/basics/props' 
 // import BMI from './tutorial/basics/bmi'
-import Effect from './tutorial/basics/fetch'
+// import Effect from './tutorial/basics/fetch'
+// import MultiFetchData from './tutorial/basics/fetch-data'
+// import WeatherFinder from './tutorial/basics/wether'
+// import UserFetch from './tutorial/basics/weth'
+// import {Home,About} from './tutorial/advance/pages'
+import List from './tutorial/list/List'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-      <>
-       <Effect/>
-      </>
+      <div className="">
+        <List/>
+      </div>
   );
 };
 
