@@ -12,12 +12,16 @@ import './App.css'
 // import WeatherFinder from './tutorial/basics/wether'
 // import UserFetch from './tutorial/basics/weth'
 // import {Home,About} from './tutorial/advance/pages'
-import List from './tutorial/list/List'
+// import List from './tutorial/list/List'
+// import Continput from './tutorial/list/input';
+// import Continput from './tutorial/list/Multuinput';
+// import Navbar from './tutorial/context-api/Navbar';
+import Navbar from './tutorial/context-api-setup/Navbar';
 
 function App() {
   return (
       <div className="">
-        <List/>
+       <Navbar/>
       </div>
   );
 };

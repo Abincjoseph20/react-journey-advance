@@ -13,7 +13,7 @@ function ToDo(){
         if(value){
             const Newvalue = {id:arr.length+1,list:value}
             Setarr([...arr,Newvalue]);
-            setValue()
+            setValue('')
         }
     }
 
